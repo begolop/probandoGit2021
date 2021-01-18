@@ -23,9 +23,10 @@ public class Arrays1 {
         System.out.println("Empiezo programa");
         /*int numeros[]={5,7,3,2,6,3};*/
         int numeros[]=new int[5];
-        //Arrays.fill(numeros, 21);
+       
         for (int i=0;i<numeros.length;i++)
             numeros[i]=sc.nextInt();
+
         for(int i=0;i<numeros.length;i++)
             System.out.println(numeros[i]);
     }
