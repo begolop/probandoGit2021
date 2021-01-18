@@ -5,6 +5,8 @@
  */
 package arrays1;
 
+import java.util.Arrays;
+
 /**
  *
  * @author Bego
@@ -17,7 +19,9 @@ public class Arrays1 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Empiezo programa");
-        int numeros[]={5,7,3,2,6,3};
+        /*int numeros[]={5,7,3,2,6,3};*/
+        int numeros[]=new int[5];
+        Arrays.fill(numeros, 21);
         for(int i=0;i<numeros.length;i++)
             System.out.println(numeros[i]);
     }
